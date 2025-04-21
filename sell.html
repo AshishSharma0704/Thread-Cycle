@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sell on ReThread | Second-Hand Clothing Marketplace</title>
+<div class="seller-stats">
+    <div class="stat-card"></div>
+        <div class="number">24</div>
+        <div class="label">Active Listings</div>
+    </div>
+    <div class="stat-card"></div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -525,7 +525,7 @@
                     <div class="label">Active Listings</div>
                 </div>
                 <div class="stat-card">
-                    <div class="number">$1,245</div>
+                    <div class="number">₹103,335</div>
                     <div class="label">Total Earnings</div>
                 </div>
                 <div class="stat-card">
@@ -534,7 +534,7 @@
                 </div>
             </div>
         </div>
-        
+    
         <div class="dashboard-layout">
             <div class="seller-sidebar">
                 <div class="seller-menu">
@@ -550,13 +550,13 @@
                     </ul>
                 </div>
             </div>
-            
+    
             <div class="seller-content">
                 <div class="content-header">
                     <h2>Your Listings</h2>
                     <button class="cta-button"><i class="fas fa-plus"></i> Add New Item</button>
                 </div>
-                
+    
                 <table class="listings-table">
                     <thead>
                         <tr>
@@ -578,7 +578,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>$45.99</td>
+                            <td>₹3,817</td>
                             <td><span class="status-badge status-active">Active</span></td>
                             <td>124</td>
                             <td>
@@ -597,7 +597,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>$39.99</td>
+                            <td>₹3,319</td>
                             <td><span class="status-badge status-active">Active</span></td>
                             <td>87</td>
                             <td>
@@ -616,7 +616,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>$75.50</td>
+                            <td>₹6,267</td>
                             <td><span class="status-badge status-pending">Pending Approval</span></td>
                             <td>0</td>
                             <td>
@@ -635,7 +635,7 @@
                                     </div>
                                 </div>
                             </td>
-                            <td>$129.99</td>
+                            <td>₹10,789</td>
                             <td><span class="status-badge status-sold">Sold</span></td>
                             <td>215</td>
                             <td>
@@ -645,7 +645,7 @@
                         </tr>
                     </tbody>
                 </table>
-                
+    
                 <!-- Listing Form (Hidden by default, would be shown when "Add New Item" is clicked) -->
                 <div class="listing-form" style="display: none;">
                     <div class="form-section">
@@ -694,21 +694,21 @@
                             <textarea id="item-description" placeholder="Describe your item in detail including any flaws, measurements, etc."></textarea>
                         </div>
                     </div>
-                    
+    
                     <div class="form-section">
                         <h3>Pricing</h3>
                         <div class="form-row">
                             <div class="form-group">
-                                <label for="item-price">Price ($)*</label>
+                                <label for="item-price">Price (₹)*</label>
                                 <input type="number" id="item-price" placeholder="0.00" step="0.01">
                             </div>
                             <div class="form-group">
-                                <label for="item-original-price">Original Price ($)</label>
+                                <label for="item-original-price">Original Price (₹)</label>
                                 <input type="number" id="item-original-price" placeholder="0.00" step="0.01">
                             </div>
                         </div>
                     </div>
-                    
+    
                     <div class="form-section">
                         <h3>Photos</h3>
                         <p>Upload clear photos from multiple angles. First image will be the cover photo.</p>
@@ -721,14 +721,14 @@
                             <!-- Images would appear here after upload -->
                         </div>
                     </div>
-                    
+    
                     <div class="form-section">
                         <h3>Shipping</h3>
                         <div class="form-group">
                             <p>We provide prepaid shipping labels for all sales. Just package your item and drop it off!</p>
                         </div>
                     </div>
-                    
+    
                     <div class="form-actions">
                         <button class="cta-button">Publish Listing</button>
                         <button class="cta-button" style="background-color: var(--secondary); margin-left: 15px;">Save Draft</button>
@@ -737,6 +737,7 @@
             </div>
         </div>
     </div>
+    
     
     <script>
         // Simple interactivity for the seller dashboard
